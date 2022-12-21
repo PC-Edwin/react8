@@ -1,0 +1,28 @@
+actualizacion paquetes: npm i -g npm@latest
+borrar cache: npm cache clean --force
+version de node.js: npm --version
+creacion paquetes react: npm install -g create-react-app
+creacion del proyecto: npx creat-react-app proyecto0
+
+Instalacion dependencias Cambas boostrap
+npm i bootstrap@5.2.3
+o podemos utilizar enlaces de la pagina de boostrap
+
+instalar Dependencia: npm i --save react-router-dom
+
+
+codigo componentes: 
+import React, { Component } from "react";
+
+class PageDeportes extends Component {
+
+    render(){
+        return(
+            <h1>Pagina de Deportes</h1>
+        )
+    }
+}
+
+export default PageDeportes;
+
+ <Route path="/" element={<PageInicio />} />
